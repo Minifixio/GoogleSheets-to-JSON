@@ -10,7 +10,7 @@ The first row indicates the propreties keys and the following rows the values, a
 <br>
 
 2. Add the extension
-Go to **Extensions -> Apps Script** then **Add File** and copy the code from `JSONconvert.j` in it.
+Go to **Extensions -> Apps Script** then **Add File** and copy the code from `JSONconvert.js` in it.
 Now press **Run** and return to your spreadsheet.
 
 *Add the extension*
