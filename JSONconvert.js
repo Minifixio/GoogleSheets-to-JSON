@@ -6,7 +6,7 @@ function onOpen() {
 function convertActiveSpreadsheet() {
   var result={};
   var tableName = SpreadsheetApp.getActiveSheet().getName();
-  var data = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Sheet1').getDataRange().getValues();
+  var data = SpreadsheetApp.getActiveSheet().getDataRange().getValues();
   var dataJSON = makeJSON(data, tableName);
   displayJSON(dataJSON);
 }
